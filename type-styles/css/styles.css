@@ -1,0 +1,72 @@
+html{
+    font-family: "Crimson Text", serif;
+    font-size: 17pt;
+    line-height: 10pt;
+    margin: 3%;
+    background-color: rgba(233, 232, 242, 0.774);
+}
+
+h3{
+    font-size: 20pt;
+}
+
+h1{
+    font-size: 40pt;
+}
+
+section{
+    margin-bottom: 60px;
+}
+
+small{
+    color: rgb(106, 100, 171);
+    font-size: .85em;
+}
+
+p{
+    margin-top: 11px;
+    margin-bottom: 30px;
+}
+
+.fontWeightSemibold{
+    font-weight: 600;
+}
+
+.fontWeightBold{
+    font-weight: 700;
+}
+
+.fontStyleItalic{
+    font-style: italic;
+}
+
+.letterSpacingWide{
+    letter-spacing: .3em;
+}
+
+.letterSpacingClose{
+    letter-spacing: -.06em;
+}
+
+.textDecorationUnderline{
+    text-decoration: underline;
+}
+
+.textDecorationLineThru{
+    text-decoration: line-through;
+}
+.textDecorationOverline{
+    text-decoration: overline;
+}
+
+.textTransformUppercase{
+    text-transform: uppercase;
+}
+
+.textTransformLowercase{
+    text-transform: lowercase;
+}
+
+.textTransformCapitalize{
+    text-transform: capitalize;
+}
