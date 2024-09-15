@@ -1,0 +1,32 @@
+html{
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    padding-left: 7%; 
+    padding-right: 7%;
+}
+
+h1{
+    font-size: 35pt;
+}
+
+p{
+    margin-top: 18pt;
+    font-size: 13pt;
+}
+
+ul{
+    text-align: left;
+}
+
+ol{
+    text-align: left;
+}
+
+h5{
+    font-size: 15pt;
+    text-align: left;
+    margin-bottom: 5px;
+}
