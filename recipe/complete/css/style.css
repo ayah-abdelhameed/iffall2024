@@ -1,0 +1,230 @@
+/* add media queries for ingredients images and fix borders on images*/
+
+
+html{
+    padding: 2.5rem 0 2.5rem 0;
+    background-color:rgb(254, 248, 240);
+    font-family: "STIX Two Text", serif;
+    font-optical-sizing: auto;
+    font-weight: 450;
+    font-style: normal;}
+
+body{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    max-width: 60rem;
+    line-height: 1.4;
+}
+
+
+@media (min-width: 640px){
+    .title-img{
+        border: 5px solid #5a1507;
+        max-width: 20rem;
+        float: left;
+        margin: 0 2rem 1.5rem 0;
+    }
+}
+
+@media (max-width: 640px){
+    .title-img{
+        border: 5px solid #5a1507;
+        width: 18rem;
+        display: block;
+        margin: 0 auto 1.5rem auto;
+    }
+}
+
+@media (min-width: 640px){
+    body h1{
+        color: white;
+        background-color: #5a1507;
+        padding: .5rem 0 .5rem 0;
+        margin: 0;
+    }
+}
+
+@media (max-width: 640px){
+    body h1{
+        text-align: center;
+        color: white;
+        background-color: #5a1507;
+        padding: .5rem 0 .5rem 0;
+        margin: 0;
+    }
+}
+
+.deets{ 
+    background-color: #5a15071d;
+    padding: .25rem .75rem .25rem .75rem;
+    margin-top: 3rem;
+    margin-left: 22rem;
+    text-align: center;
+}
+
+@media (max-width: 730px){
+    .deets{ 
+        margin-left: 0;
+    }
+}
+
+/* label */
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+  }
+  
+  /* hide default */
+  .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* checkbox */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #ffffff;
+    border: 1px solid #5a1507;
+  }
+  
+  /*  hover state */
+  .container:hover input ~ .checkmark {
+    background-color: #bcada453;
+    cursor: pointer;
+  }
+  
+  /* checked */
+  .container input:checked ~ .checkmark {
+    background-color: #5a1507;
+  }
+  
+  /* hidden */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* checkmark */
+  .container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* style checkmark */
+  .container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+h5{
+    display: block;
+    background-color:#5a1507;
+    font-size: 1.65rem;
+    color: white;
+    padding: .2rem 0 .2rem 1.4rem;
+    text-align: left;
+    clear: both;
+}
+
+@media (min-width: 640px){
+    h5{
+        margin: 2rem 0 1.25rem 0;
+    }
+}
+
+.ingr-img{
+    border: 2px solid #5a1507;
+    display: block;
+    margin-bottom: 25px;
+}
+@media (max-width: 640px){
+    .ingr-img{
+        display: block;
+        width: 250px;
+    }
+}
+
+@media (min-width: 640px){
+    .ingr-img{
+        width: 225px;
+    }
+}
+
+.ingr-img2{
+    border: 2px solid #5a1507;
+    display: block;
+    margin-bottom: 25px;
+}
+@media (max-width: 640px){
+    .ingr-img2{
+        display: block;
+        width: 250px;
+    }
+}
+
+@media (min-width: 640px){
+    .ingr-img2{
+        width: 225px;
+    }
+}
+
+
+footer p{
+    margin-top: 2rem;
+    margin-bottom: 0;
+    padding: 8px 0 8px 10px;
+    color: white;
+    font-size: 12px;
+    font-style: italic;
+    background-color:#5a1507;
+}
+
+footer a{
+    color: white;
+}
+
+.deets span{
+    white-space:nowrap;
+}
+
+.columns{
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 640px){
+    .columns{
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        margin-right: 1.5rem;
+    }
+}
+
+@media (max-width: 640px){
+    .ingr-photos{
+        display: flex;
+        margin: 0 auto;
+        flex-direction: column;
+    }
+}
+
+ul{
+    padding-left: 1.5rem;
+}
