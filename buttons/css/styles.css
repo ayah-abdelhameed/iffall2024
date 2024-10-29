@@ -1,0 +1,223 @@
+.button_container a{
+    text-decoration: none;
+}
+
+a#btn_craigslist{
+    display: inline-block;
+    padding: .75rem 2rem .75rem 2rem;
+    font-size: 20pt;
+    color: #9B3995;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: white;
+    border: 2px solid #9B3995;
+    margin-top: 100px;
+}
+
+a#btn_craigslist:hover{
+    background-color:#9B3995;
+    color: white;
+}
+
+
+
+a#btn_cn{
+    margin-top: 90px;
+    display: inline-block;
+    font-size: 25pt;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    color: black;
+    transition: transform 0.2s ease; 
+
+}
+
+.cartoon, .network{
+    display: block;
+    border: 1px solid #000000;
+    padding: 2px 10px 2px 10px; 
+    transition: background-color 0.1s ease, color 0.1s ease; 
+  
+}
+
+.network{
+    background-color: black;
+    color: white;
+}
+
+a#btn_cn:hover{
+    box-shadow: 0 0 8px #00000076;
+    transform: scale(1.1);
+}
+
+a#btn_cn:hover .cartoon{
+    background-color: black;
+    color: white;
+}
+
+a#btn_cn:hover .network{
+    background-color: white;
+    color: black;
+}
+
+
+
+a#btn_nike{
+    display: inline-block;
+    margin-top: 115px;
+    font-size: 35px;
+    font-family: "futura-pt", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    color: black;
+    letter-spacing: 3px;
+}
+
+a#btn_nike:hover{
+    letter-spacing: -2.5px;
+    font-weight: 600;
+    color: black;
+    transition: letter-spacing 0.2s ease, font-weight 0.2s ease;
+}
+
+
+
+a#btn_nbc{
+    display: inline-block;
+    margin-top: 50px;
+    font-size: 40px;
+    font-weight: 600;
+    color: black;
+    padding: 2.5rem;
+}
+
+a#btn_nbc:hover{
+    color: rgb(0, 0, 0);
+    transform: scale(1.1);
+    background-image: linear-gradient(to bottom right, rgb(90, 59, 136, .5), rgb(45, 128, 211, .5), rgba(0, 128, 0, 0.5));
+    border-radius: 10%;
+    transition: transform .2s ease;
+}
+
+
+a#btn_npr{
+    color: black;
+    display: inline-block;
+    font-size: 35px;
+    font-weight: bold;
+    letter-spacing: 15px;;
+    margin-top: 100px;
+}
+
+a#btn_npr:hover span{
+    color: white;
+    transition: background-color .6s ease;
+    padding-left: 15px;
+    padding-bottom: 5px;
+}
+
+a#btn_npr:hover .n{
+    background: #D62021;
+}
+a#btn_npr:hover .p{
+    background: #000006;
+}
+a#btn_npr:hover .r{
+    background: #247BBD;
+}
+
+
+a#btn_oldnavy{
+    display: inline-block;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 100px;
+    color: white;
+    background: #013764;
+    padding: 20px;
+    border-radius: 50%;
+}
+
+a#btn_oldnavy:hover{
+    color: #013764;
+    background: white;
+    border: 2px solid #013764;
+    border-radius: 20px;
+    transition: border-radius .4s ease;
+}
+
+
+a#btn_coke{
+    display: inline-block;
+    font-size: 35px;
+    margin-top: 100px;
+    font-weight: bold;
+    font-family: "Imperial Script";
+    color: black;
+    padding: 5px 20px;
+    border: 2px solid black;
+    border-radius: 30px;
+    transition: padding .3s ease;
+    position: relative;
+}
+
+a#btn_coke:hover{
+    background-color: #F40202;
+    color: white;
+    transform: scale(1.2);
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.512);    
+    transition: color .2s ease, transform .3s ease, background-color .2s ease;
+}
+
+
+a#btn_ny{
+    display: inline-block;
+    margin-top: 100px;
+    font-size: 45px;
+    color: rgb(0, 0, 0);
+    font-family: "Bentham display"
+}
+
+a#btn_ny:hover .ny{
+    padding-top: 20px;
+    text-decoration: underline;
+    text-decoration-color: black; 
+    text-decoration-thickness: 2px; 
+    font-style: italic;
+}
+
+
+a#btn_moo{
+    display: inline-block;
+    margin-top: 100px;
+    font-size: 45px;
+    color: #04AB72;
+    font-family: "Commissioner";
+}
+
+a#btn_moo:hover{
+    letter-spacing: 20px;
+    padding-left: 20px;
+    transition: letter-spacing .3s ease-in, padding .3s ease;
+}
+
+
+a#btn_mobot{
+    display: inline-block;
+    margin-top: 50px;
+    font-weight: 600;
+    font-size: 40px;
+    color: white;
+    background-color: #016A35;
+    padding: 10px;
+
+}
+
+a#btn_mobot:hover{
+    border: 1px solid #016A35;
+    background-color: white;
+    color: #016A35;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.261);   
+    transform: scale(.9);
+    transition: border-radius .5s ease, box-shadow .5s ease, transform .5s ease;
+}
