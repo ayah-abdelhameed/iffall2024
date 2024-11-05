@@ -1,0 +1,16 @@
+html{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 1.5rem;
+}
+
+.desktop{
+    width: 90%;
+    display: block;
+    margin: 0 auto 3rem auto;
+}
+
+img{
+    width: 25%;
+    display: block;
+    margin: 0 auto 3rem auto;
+}
